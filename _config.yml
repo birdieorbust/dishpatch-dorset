@@ -1,0 +1,29 @@
+name: Dishpatch-Dorset
+description: Dishpatch-Dorset
+meta_description: "Independent businesses delivering food in Poole/Bournemouth"
+
+aboutPage: true
+
+markdown: kramdown
+highlighter: rouge
+
+plugins: [jekyll-paginate]
+paginate: 20
+domain_name: http://birdieorbust.github.io/
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://your-blog-url.example.com'
+author:         'Your Name'
+authorTwitter:  'YourTwitterUsername'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default

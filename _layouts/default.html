@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <link rel="shortcut icon" href="{{ "/" | relative_url  }}assets/images/favicon.ico">
+  <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="{{ "/" | relative_url  }}feed.xml">
+  <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/highlight.css">
+</head>
+<body>
+
+
+<div class="main" id="content">
+<main>
+    <section id="hero" class="hero">
+
+        <header class="header">
+            <h1 class="header_logo">dishpatch-dorset</h1>
+        </header>
+  
+        <div class="hero_text">
+          <h1>Independent businesses delivering food in Dorset</h1>
+          <h2>A directory of independent food & drink suppliers offering a delivery service during the coronavirus quarantine. Updated daily.</h2>
+        </div>
+      
+      </section>
+  
+    <section>
+      <div class="filter">
+
+      </div>
+      <div class="table-labels">
+          <p class="table-label">Name</p>
+          <p class="table-label">Delivery Area</p>
+          <p class="table-label">Products</p>
+          <p class="table-label">Delivery Speed</p>
+          <p class="table-label">Order</p>
+        </div>
+        <div class="table-parent">
+            <div class="table">
+              <a class="table_item table_name" target="_blank" href="http://artisanmark.com/">Mark Bennet Bakery</a>
+              <p class="table_item">BH14</p>
+              <p class="table_item">🍞</p>
+              <p class="table_item">Mon, Weds, Fri deliveries (24hrs notice required)</p>
+              <p class="table_item table_order"><a target="_blank" href="http://artisanmark.com/">Order via Website</a></p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+</main>
+
+</div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="{{ "/" | relative_url  }}assets/js/main.js"></script>
+  <script src="{{ "/" | relative_url  }}assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+{% include footer.html %}
+
+</body>
+</html>
+
+
+
