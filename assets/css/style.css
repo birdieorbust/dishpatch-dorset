@@ -69,7 +69,7 @@ h2 {
 }
 
 .hero {
-	background-image: url('/assets/images/dishpatch-groceries-delivery.png');
+	background-image: url("/assets/images/dishpatch-groceries-delivery.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	display: flex;
