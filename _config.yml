@@ -9,7 +9,7 @@ highlighter: rouge
 
 plugins: [jekyll-paginate]
 paginate: 20
-domain_name: http://birdieorbust.github.io/
+domain_name: http://birdieorbust.github.io/dishpatch-dorset/
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
