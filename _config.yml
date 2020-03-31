@@ -12,7 +12,8 @@ paginate: 20
 domain_name: http://birdieorbust.github.io/
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
-url:            'http://birdieorbust.github.io/dorset-dishpatch/'
+baseurl: '/dishpatch-dorset'
+url:            'http://birdieorbust.github.io/'
 author:         'Your Name'
 authorTwitter:  'YourTwitterUsername'
 
